@@ -11,7 +11,7 @@ body {
 }
 
 header, footer {
-    background-color: #333;
+    background-color: #001623;
     color: #fff;
     text-align: center;
     padding: 1.5rem 0;
@@ -51,6 +51,24 @@ footer {
     margin-top: 30px;
 }
 
+.header {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    background-color: #001623; /* Color de fondo opcional para el encabezado */
+    color: #fff; /* Color de texto opcional para el encabezado */
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
 /* Estilos adicionales para dispositivos móviles */
 @media screen and (max-width: 768px) {
     header h1, footer p {
